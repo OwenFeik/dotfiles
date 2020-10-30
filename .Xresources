@@ -1,0 +1,51 @@
+! special
+*.foreground:   #eeffff
+*.background:   #252526
+*.cursorColor:  #eeffff
+
+! black
+*.color0:       #020403
+*.color8:       #5b9b7c
+
+! red
+*.color1:       #cc342b
+*.color9:       #cc342b
+
+! green
+*.color2:       #198844
+*.color10:      #198844
+
+! yellow
+*.color3:       #304138
+*.color11:      #c792ea
+
+! blue
+*.color4:       #3971ed
+*.color12:      #3971ed
+
+! magenta
+*.color5:       #a36ac7
+*.color13:      #a36ac7
+
+! cyan
+*.color6:       #0f73fb
+*.color14:      #0f73fb
+
+! white
+*.color7:       #bdedd4
+*.color15:      #e08b66
+
+URxvt.scrollBar: false
+URxvt.font: xft:Fira Code:size=12
+URxvt.letterSpace: 1
+URxvt.iso14755: false
+URxvt.iso14755_53: false
+
+Xft.dpi: 92
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.hinting: 1
+Xft.hintstyle: hintslight
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
