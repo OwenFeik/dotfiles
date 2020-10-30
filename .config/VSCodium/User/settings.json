@@ -1,0 +1,49 @@
+{
+    "workbench.colorTheme": "Sublime Material Theme - Dark",
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "latex-workshop.latex.autoBuild.run": "never",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontFamily": "'Fira Code', 'monospace'",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "keyword",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "explorer.confirmDragAndDrop": false,
+    "python.linting.pylintArgs": [
+        "--disable=C,broad-except",
+        "--extension-pkg-whitelist=cv2,pygame"
+    ],
+    "diffEditor.ignoreTrimWhitespace": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "default build",
+            "tools": [
+                "pdflatex"
+            ]
+        }
+    ],
+
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        }
+    ]
+}
