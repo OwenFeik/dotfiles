@@ -177,6 +177,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+bindsym $mod+x exec "/home/owen/.config/polybar/scripts/player-mpris-tail.py play-pause"
+
 default_border pixel
 hide_edge_borders both
 for_window [class="^.*"] border pixel 0 
